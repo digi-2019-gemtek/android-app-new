@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E75B8"
+    >
+    <Button
+        android:id="@+id/btn_RETURN"
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+        android:text="@string/re"
+        android:textSize="35sp"
+        android:layout_marginRight="20dp"
+        android:background="#2E75B8" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_again"
+        android:layout_marginTop="33dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="75sp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="290dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_determine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+
+                android:background="#C20000"
+                android:text="@string/btn_determine"
+                android:textColor="#E6E5E5"
+                android:textSize="65sp" />
+
+            <Button
+                android:id="@+id/btn_forget_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:background="#FF8E42"
+                android:text="@string/btn_correct"
+                android:textColor="#E6E5E5"
+                android:textSize="65sp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

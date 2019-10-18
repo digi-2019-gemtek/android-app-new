@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">subject1</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- public-->
+    <string name="re">&#60;</string>
+    <string name="btn_determine">確定</string>
+    <string name="btn_correct">更正</string>
+    <string name="txt_change_fail">資料更改失敗!!</string>
+    <string name="txt_change_success">資料已更改成功!!</string>
+
+    <!-- main screen-->
+    <string name="btn_switch">水閘門開關</string>
+    <string name="btn_condition">定時條件</string>
+    <string name="btn_record">操作紀錄</string>
+    <string name="btn_setting">設定</string>
+    <string name="txt_connection">連線中</string>
+    <string name="txt_disconnection">未連線</string>
+
+    <!--Engineering-->
+    <string name="engin">工程版</string>
+
+    <!-- password screen-->
+    <string name="btn_forget">忘記密碼</string>
+    <string name="txt_hint">密碼提示</string>
+    <string name="txt_warning">輸入錯誤!!\n與預設答案不符</string>
+
+    <!-- Bluetooth-->
+    <string name="txt_bluetooth">藍芽</string>
+
+    <!-- switch-->
+    <string name="btn_open">開啟水閘門</string>
+    <string name="btn_close">關閉水閘門</string>
+    <string name="btn_stop">停止開關水閘門</string>
+    <string name="txt_fail">動作失敗!!\n請重新設定</string>
+
+    <!-- Condition-->
+    <string name="btn_timecontrol">定時控制</string>
+    <string name="btn_conditioncontrol">條件控制</string>
+    <string name="btn_not">不坐定時即條件</string>
+    <string name="txt_time">時間</string>
+    <string name="txt_open">開啟時間</string>
+    <string name="txt_close">關閉時間</string>
+    <string name="txt_condition">條件</string>
+    <string name="txt_temp">土壤溫度：</string>
+    <string name="txt_hum">土壤濕度：</string>
+
+    <!-- record-->
+    <string name="txt_record">操作紀錄</string>
+
+    <!-- setting-->
+    <string name="txt_setting">設定</string>
+    <string name="btn_note">注意事項</string>
+    <string name="btn_language">語言</string>
+    <string name="btn_password">密碼</string>
+    <string name="btn_time">矯正中控器時間</string>
+
+    <!-- note-->
+    <string name="txt_note">注意事項</string>
+
+    <!-- password-->
+    <string name="txt_original">輸入原密碼</string>
+    <string name="btn_cancel">取消密碼</string>
+    <string name="btn_new">設定新密碼</string>
+    <string name="btn_show">設定密碼顯示</string>
+    <string name="txt_delete">確定要刪除密碼嗎?</string>
+    <string name="txt_again">再次輸入密碼</string>
+    <string name="txt_forget">忘記密碼提示</string>
+    <string name="txt_problem">題目</string>
+    <string name="txt_answer">答案</string>
+
+    <!-- DeviceScan 2019.10.8 -->
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">特征：0xffe1 APP串口透传</string>
+    <string name="label_device_address">MAC地址:</string>
+    <string name="label_state">连接状态:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">已连接</string>
+    <string name="connecting">连接中....</string>
+    <string name="disconnected">断开连接</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="TXD">特征：0xffe1 APP串口发送</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="menu_connect">连接设备</string>
+    <string name="menu_disconnect">断开连接</string>
+    <string name="menu_scan">扫描设备</string>
+    <string name="menu_stop">停止扫描</string>
+</resources>

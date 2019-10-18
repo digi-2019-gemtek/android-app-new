@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E75B8"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_RETURN"
+            android:layout_width="29dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:background="#2E75B8"
+            android:text="@string/re"
+            android:textSize="35sp" />
+        <TextView
+            android:id="@+id/txt_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_condition"
+            android:gravity="center"
+            android:textSize="75sp"
+            android:textColor="#E6E5E5"
+            android:layout_marginTop="20dp"
+            android:background="#2E75B8"
+            />
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_marginTop="125dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_ope"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E75B8"
+                android:text="@string/txt_temp"
+                android:textColor="#E6E5E5"
+                android:textSize="65sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edt_1"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:textSize="65sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="°c"
+                    android:textSize="65sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_close"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:background="#2E75B8"
+                android:text="@string/txt_hum"
+                android:textColor="#E6E5E5"
+                android:textSize="65sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edt_2"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:textSize="65sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="%"
+                    android:textSize="65sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_determine"
+                android:layout_width="427dp"
+                android:layout_height="65sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#FF7B24"
+                android:text="@string/btn_determine"
+                android:textColor="#E6E5E5"
+                android:textSize="55sp" />
+            <Button
+                android:id="@+id/btn_read"
+                android:layout_width="427dp"
+                android:layout_height="65sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#FF7B24"
+                android:text="顯示"
+                android:textColor="#E6E5E5"
+                android:textSize="55sp" />
+        </LinearLayout>
+    </ScrollView>>
+</FrameLayout>

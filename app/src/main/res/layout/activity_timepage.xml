@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E75B8"
+    >
+
+    <Button
+        android:id="@+id/btn_RETURN"
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+        android:text="@string/re"
+        android:textSize="35sp"
+        android:layout_marginRight="20dp"
+        android:background="#2E75B8" />
+    <TextView
+        android:id="@+id/txt_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_time"
+        android:gravity="center"
+        android:textSize="75sp"
+        android:textColor="#E6E5E5"
+        android:layout_marginTop="45dp"
+        android:background="#2E75B8"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_marginTop="125dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_ope"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="40dp"
+                android:background="#2E75B8"
+                android:gravity="center"
+                android:text="@string/txt_open"
+                android:textColor="#E6E5E5"
+                android:textSize="75sp" />
+
+            <!--  <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="#2E75B8">
+
+                <TimePicker
+                     android:id="@+id/new_act_time_open"
+                     android:layout_width="0dip"
+                     android:layout_height="350dp"
+                     android:layout_weight="0.3" />
+             </LinearLayout>-->
+
+             <Button
+                 android:id="@+id/btn_close"
+                 android:layout_width="353dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="30dp"
+                 android:layout_marginTop="10dp"
+                 android:background="#2E75B8"
+                 android:gravity="center"
+                 android:text="@string/txt_close"
+                 android:textColor="#E6E5E5"
+                 android:textSize="75sp" />
+
+
+            <!--<LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#2E75B8">
+                <TimePicker
+                    android:id="@+id/new_act_time_close"
+                    android:layout_width="0dip"
+                    android:layout_height="350dp"
+                    android:layout_weight="0.3"
+                    />
+           </LinearLayout>-->
+            <Button
+                android:id="@+id/btn_determine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#FF7B24"
+                android:text="@string/btn_determine"
+                android:layout_gravity="center"
+                android:textColor="#E6E5E5"
+                android:textSize="55sp" />
+            <Button
+                android:id="@+id/btn_read"
+                android:layout_width="427dp"
+                android:layout_height="65sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:background="#FF7B24"
+                android:text="顯示"
+                android:textColor="#E6E5E5"
+                android:textSize="55sp" />
+
+            <TextView
+                android:id="@+id/tev_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/tev_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="35sp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

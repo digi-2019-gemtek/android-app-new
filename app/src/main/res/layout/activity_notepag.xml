@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E75B8"
+    >
+    <Button
+        android:id="@+id/btn_RETURN"
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+        android:text="@string/re"
+        android:textSize="35sp"
+        android:layout_marginRight="20dp"
+        android:background="#2E75B8" />
+    <TextView
+        android:id="@+id/txt_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_note"
+        android:gravity="center"
+        android:textSize="75sp"
+        android:textColor="#E6E5E5"
+        android:layout_marginTop="45dp"
+        android:background="#2E75B8"
+        />
+</FrameLayout>
